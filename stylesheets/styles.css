@@ -136,6 +136,10 @@ header{
 }
 .first-section__post{
     width: 387px;
+    transition: 150ms ease-in-out;
+}
+.first-section__post:hover{
+    transform: scale(1.05);
 }
 .second-section{
     margin-top: 90px;
@@ -153,6 +157,10 @@ header{
 }
 .second-section__post{
     width: 285px;
+    transition: 150ms ease-in-out;
+}
+.second-section__post:hover{
+    transform: scale(1.05);
 }
 .second-section__img{
     width: 285px;
@@ -179,6 +187,9 @@ header{
     border: 1px solid #000000;
     margin-top: 40px;
     margin-bottom: 90px;
+}
+.second-section__button:hover{
+    background-color: #eaeaea;
 }
 
 .third-section{
@@ -292,7 +303,7 @@ header{
     margin-bottom: 0;
     height: 32px;
 }
-.footer__submit{
+.footer__send{
     width: 79px;
     height: 48px;
     background-color: #000000;
@@ -305,4 +316,8 @@ header{
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.footer__send:hover{
+    background-color: #292929;
+    border-color: #292929;
 }
